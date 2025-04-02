@@ -5,7 +5,7 @@ public class InputHandler : MonoBehaviour
 {
     [SerializeField]
     private float _mouseScaling   = 0.05f;
-    private float _gamepadScaling = 0.15f;
+    //private float _gamepadScaling = 0.15f;
 
     public Mouse CurrentMouse           => Mouse.current;
     public Gamepad CurrentGamepad       => Gamepad.current;
